@@ -32,6 +32,7 @@
       {/each}
     </ul>
   </nav>
+
   <div class="user" on:click={(event) => push("/about")}>
     <img src="/assets/svelte.png" alt="User" />
   </div>

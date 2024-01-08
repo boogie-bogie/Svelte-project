@@ -16,7 +16,7 @@
 
   function apply() {
     searchMovies({
-      title: title,
+      title: title.toLowerCase(),
       type: type,
       year: year,
       number: number,

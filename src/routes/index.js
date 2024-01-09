@@ -1,7 +1,7 @@
-import Home from "./Home.svelte";
-import Movie from "./Movie.svelte";
-import About from "./About.svelte";
-import NotFound from "./NotFound.svelte";
+import Home from "./page/Home.svelte";
+import Movie from "./page/Movie.svelte";
+import About from "./page/About.svelte";
+import NotFound from "./page//NotFound.svelte";
 
 export default {
   "/": Home, // 8080
